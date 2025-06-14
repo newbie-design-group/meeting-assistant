@@ -66,3 +66,7 @@ docker-compose.override.yml
 
 # Pydantic “.pydantic.json” models (if you serialize schemas)
 *.pydantic.json
+
+
+# Mako cache (if enabled)
+*.mako.py
