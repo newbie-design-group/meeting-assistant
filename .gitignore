@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.*
+# If you have a directory of secrets:
+# secrets/
+
+# SQLite databases (if you’re using one for dev)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker (override files, local env overrides)
+docker-compose.override.yml
+.envrc
+
+# Mypy cache
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Pydantic “.pydantic.json” models (if you serialize schemas)
+*.pydantic.json
